@@ -75,7 +75,7 @@ export default function Formulario() {
               name="nombre"
               value={formData.nombre}
               onChange={handleChange}
-              className="w-full p-2 border bg-zinc-800 border-zinc-700 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-full p-2 border bg-zinc-800 border-zinc-300 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
             {errores.nombre && <p className="text-red-500 text-sm">{errores.nombre}</p>}
           </div>

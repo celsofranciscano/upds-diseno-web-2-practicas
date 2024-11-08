@@ -69,27 +69,27 @@ export default function SeccionesInteractivos() {
         {/* Secciones que pueden ocultarse o mostrarse */}
         <div className="space-y-4 mt-6">
           {seccionesVisibles.seccion1 && (
-            <div className="p-4 border border-zinc-700 rounded-md">
+            <div className="p-4 border border-zinc-100 rounded-md">
               <h2 className="text-xl font-semibold text-indigo-600">Sección 1</h2>
-              <p className="text-zinc-500">
+              <p className="text-zinc-100">
                 Contenido de la sección 1. Haz clic en el enlace para ocultarla o mostrarla.
               </p>
             </div>
           )}
 
           {seccionesVisibles.seccion2 && (
-            <div className="p-4 border border-zinc-700 rounded-md">
+            <div className="p-4 border border-zinc-100 rounded-md">
               <h2 className="text-xl font-semibold text-indigo-600">Sección 2</h2>
-              <p className="text-zinc-500">
+              <p className="text-zinc-100">
                 Contenido de la sección 2. Haz clic en el enlace para ocultarla o mostrarla.
               </p>
             </div>
           )}
 
           {seccionesVisibles.seccion3 && (
-            <div className="p-4 border border-zinc-700 rounded-md">
+            <div className="p-4 border border-zinc-100 rounded-md">
               <h2 className="text-xl font-semibold text-indigo-600">Sección 3</h2>
-              <p className="text-zinc-500">
+              <p className="text-zinc-100">
                 Contenido de la sección 3. Haz clic en el enlace para ocultarla o mostrarla.
               </p>
             </div>

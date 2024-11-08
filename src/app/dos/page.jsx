@@ -24,13 +24,13 @@ const Factorial = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto p-4 bg-white rounded-lg shadow-md">
+    <div className="max-w-md mx-auto p-4 bg-zinc-900 rounded-lg shadow-md">
       <h2 className="text-lg font-bold mb-4">Calculadora de Factorial</h2>
       <input
         type="number"
         value={number}
         onChange={handleInputChange}
-        className="w-full p-2 mb-4 border border-gray-300 rounded-lg"
+        className="w-full p-2 mb-4 border bg-zinc-700 border-gray-300 rounded-lg"
         placeholder="Ingrese un número"
       />
       <button
