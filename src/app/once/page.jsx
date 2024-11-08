@@ -32,7 +32,7 @@ export default function ZonaMouse() {
         <h1 className="text-3xl font-bold text-indigo-600 mb-4 text-center">Detectar Zona del Ratón</h1>
 
         {/* Instrucciones */}
-        <p className="text-zinc-600 mb-4">
+        <p className="text-zinc-100 mb-4">
           Haz clic en cualquier parte de la pantalla para saber en qué zona se encuentra el clic.
         </p>
 

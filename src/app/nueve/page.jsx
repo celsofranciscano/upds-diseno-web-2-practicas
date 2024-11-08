@@ -34,19 +34,19 @@ export default function EventosMouseTeclado() {
       onKeyDown={handleKeyPress} // Captura el evento de teclado
       tabIndex={0} // Necesario para que el componente reciba eventos de teclado
     >
-      <main className="flex flex-col gap-6 p-6 border border-zinc-800 rounded-md w-full max-w-md shadow-lg">
-        <h1 className="text-3xl font-bold text-indigo-600 mb-4 text-center">Eventos del Ratón y Teclado</h1>
+      <main className="flex flex-col gap-6 p-6 border border-zinc-100 rounded-md w-full max-w-md shadow-lg">
+        <h1 className="text-3xl font-bold text-indigo-700 mb-4 text-center">Eventos del Ratón y Teclado</h1>
 
         {/* Cuadro de mensaje donde se muestra la información */}
         <div
-          className="p-4 border border-zinc-700 rounded-md text-zinc-500"
+          className="p-4 border border-zinc-950 rounded-md text-zinc-950"
           style={{ backgroundColor }}
         >
           <pre>{eventInfo}</pre>
         </div>
 
         {/* Instrucciones */}
-        <div className="mt-6 text-zinc-600">
+        <div className="mt-6 text-zinc-200">
           <p>
             1. Mueve el ratón para ver la posición del puntero en relación con el navegador y la página.
           </p>

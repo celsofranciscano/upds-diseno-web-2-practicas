@@ -47,12 +47,12 @@ export default function TextoFormulario() {
 
         {/* Formulario para ingresar texto */}
         <div>
-          <label htmlFor="texto" className="block text-sm font-semibold text-zinc-700 mb-2">Introduce una cadena de texto:</label>
+          <label htmlFor="texto" className="block text-sm font-semibold text-zinc-100 mb-2">Introduce una cadena de texto:</label>
           <textarea
             id="texto"
             value={texto}
             onChange={(e) => setTexto(e.target.value)}
-            className="w-full p-3 border bg-zinc-800 border-zinc-700 rounded focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            className="w-full p-3 border bg-zinc-800 border-zinc-700 rounded  placeholder:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
             rows={5}
           />
         </div>
@@ -60,14 +60,14 @@ export default function TextoFormulario() {
         {/* Botón para procesar el texto */}
         <button
           onClick={procesarTexto}
-          className="bg-indigo-500 px-5 py-2 rounded-md shadow hover:bg-indigo-600 text-white font-semibold transition-colors duration-200"
+          className="bg-indigo-700 px-5 py-2 rounded-md shadow hover:bg-indigo-600 text-blue-50 font-semibold transition-colors duration-200"
         >
           Procesar Texto
         </button>
 
         {/* Mostrar la información procesada en la interfaz (opcional) */}
         {informacion && (
-          <div className="mt-6 text-zinc-600">
+          <div className="mt-6 text-zinc-100">
             <p><strong>Número de palabras:</strong> {informacion.numeroPalabras}</p>
             <p><strong>Primera palabra:</strong> {informacion.primeraPalabra}</p>
             <p><strong>Última palabra:</strong> {informacion.ultimaPalabra}</p>

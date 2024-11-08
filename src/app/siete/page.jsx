@@ -12,8 +12,8 @@ export default function ListaDinamica() {
 
   return (
     <div className="flex justify-center items-center min-h-screen">
-      <main className="flex flex-col gap-6 p-6 border border-zinc-800 rounded-md w-full max-w-md shadow-lg">
-        <h1 className="text-3xl font-bold text-indigo-600 mb-4 text-center">
+      <main className="flex flex-col gap-6 p-6 border border-zinc-500 rounded-md w-full max-w-md shadow-lg">
+        <h1 className="text-3xl font-bold text-indigo-400 mb-4 text-center">
           Lista Dinámica
         </h1>
 
