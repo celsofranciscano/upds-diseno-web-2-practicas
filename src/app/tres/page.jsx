@@ -67,7 +67,7 @@ export default function Condiciones() {
         <div className="mt-4 space-y-3">
           {mensajes.length === 0 ? (
             <p className="text-zinc-500 text-center">
-              No hay mensajes que mostrar. Presiona "Verificar Condiciones" para obtener resultados.
+              No hay mensajes que mostrar. Presiona Verificar Condiciones para obtener resultados.
             </p>
           ) : (
             mensajes.map((mensaje, index) => (
