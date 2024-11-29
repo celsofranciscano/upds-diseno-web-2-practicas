@@ -15,7 +15,7 @@ function ContactoPage() {
       <div className="mt-4 py-12 px-4 md:px-16">
         {/* Sección de información de contacto */}
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 ">
-          <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <div className="bg-white rounded-lg shadow-md p-6 text-center flex items-center justify-center flex-col">
             <svg
               class="w-6 h-6 text-gray-800 "
               aria-hidden="true"
@@ -37,7 +37,7 @@ function ContactoPage() {
             <h2 className="text-2xl font-semibold text-gray-800">Teléfono</h2>
             <p className="text-gray-600 mt-2">+591 123 456 789</p>
           </div>
-          <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <div className="bg-white rounded-lg shadow-md p-6 text-center flex items-center justify-center flex-col">
             <svg
               class="w-6 h-6 text-gray-800 "
               aria-hidden="true"
@@ -60,7 +60,7 @@ function ContactoPage() {
             </h2>
             <p className="text-gray-600 mt-2">info@tuempresa.com</p>
           </div>
-          <div className="bg-white rounded-lg shadow-md p-6 text-center">
+          <div className="bg-white rounded-lg shadow-md p-6 text-center flex items-center justify-center flex-col">
             <svg
               class="w-6 h-6 text-gray-800 "
               aria-hidden="true"
