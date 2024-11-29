@@ -90,7 +90,7 @@ function NavBar() {
 
       <aside
         id="sidebar"
-        className="bg-white border-r  w-72 md:w-60  h-screen text-black   fixed top-16  hidden  md:hidden px-4 py-8"
+        className="bg-white border-r z-20 w-72 md:w-60  h-screen text-black   fixed top-16  hidden  md:hidden px-4 py-8"
       >
         <nav className="">
           <ul className="grid  pt-8 ">
