@@ -97,7 +97,7 @@ function NavBar() {
             <li className="hover:bg-zinc-200 rounded-md px-4 py-2 ">
               <Link
                 onClick={handlebtnclick}
-                href="/dashboard"
+                href="/"
                 className="flex items-center gap-3"
               >
                 <svg
@@ -124,7 +124,7 @@ function NavBar() {
             <li className=" hover:bg-zinc-200 rounded-md px-4 py-2">
               <Link
                 onClick={handlebtnclick}
-                href="/dashboard/administrators"
+                href="/quienes"
                 className="flex items-center gap-3"
               >
                 <svg
